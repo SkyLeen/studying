@@ -17,6 +17,15 @@
 		041F85A320304E0C006E1500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041F85A120304E0C006E1500 /* LaunchScreen.storyboard */; };
 		041F85AE20304E0C006E1500 /* TestGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85AD20304E0C006E1500 /* TestGameTests.swift */; };
 		041F85B920304E0D006E1500 /* TestGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85B820304E0D006E1500 /* TestGameUITests.swift */; };
+		041F85C720305032006E1500 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85C620305032006E1500 /* Fighter.swift */; };
+		041F85C9203078C6006E1500 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85C8203078C6006E1500 /* Protocols.swift */; };
+		041F85CB20309AC7006E1500 /* Alien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CA20309AC7006E1500 /* Alien.swift */; };
+		041F85CD2030B3F8006E1500 /* SuperAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CC2030B3F8006E1500 /* SuperAlien.swift */; };
+		041F85CF2030B45C006E1500 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CE2030B45C006E1500 /* Extensions.swift */; };
+		041F85D52030CEA8006E1500 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 041F85D42030CEA8006E1500 /* GameOverScene.sks */; };
+		041F85D72030D182006E1500 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85D62030D182006E1500 /* GameOverScene.swift */; };
+		041F85D92032C821006E1500 /* ShootingAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85D82032C821006E1500 /* ShootingAlien.swift */; };
+		041F85DB2032ED2F006E1500 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85DA2032ED2F006E1500 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,15 @@
 		041F85B420304E0C006E1500 /* TestGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041F85B820304E0D006E1500 /* TestGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGameUITests.swift; sourceTree = "<group>"; };
 		041F85BA20304E0D006E1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041F85C620305032006E1500 /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
+		041F85C8203078C6006E1500 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		041F85CA20309AC7006E1500 /* Alien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien.swift; sourceTree = "<group>"; };
+		041F85CC2030B3F8006E1500 /* SuperAlien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAlien.swift; sourceTree = "<group>"; };
+		041F85CE2030B45C006E1500 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		041F85D42030CEA8006E1500 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		041F85D62030D182006E1500 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		041F85D82032C821006E1500 /* ShootingAlien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingAlien.swift; sourceTree = "<group>"; };
+		041F85DA2032ED2F006E1500 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +130,15 @@
 				041F859F20304E0C006E1500 /* Assets.xcassets */,
 				041F85A120304E0C006E1500 /* LaunchScreen.storyboard */,
 				041F85A420304E0C006E1500 /* Info.plist */,
+				041F85C620305032006E1500 /* Fighter.swift */,
+				041F85C8203078C6006E1500 /* Protocols.swift */,
+				041F85CA20309AC7006E1500 /* Alien.swift */,
+				041F85CC2030B3F8006E1500 /* SuperAlien.swift */,
+				041F85CE2030B45C006E1500 /* Extensions.swift */,
+				041F85D42030CEA8006E1500 /* GameOverScene.sks */,
+				041F85D62030D182006E1500 /* GameOverScene.swift */,
+				041F85D82032C821006E1500 /* ShootingAlien.swift */,
+				041F85DA2032ED2F006E1500 /* Functions.swift */,
 			);
 			path = TestGame;
 			sourceTree = "<group>";
@@ -245,6 +272,7 @@
 				041F859520304E0C006E1500 /* GameScene.sks in Resources */,
 				041F85A020304E0C006E1500 /* Assets.xcassets in Resources */,
 				041F85A320304E0C006E1500 /* LaunchScreen.storyboard in Resources */,
+				041F85D52030CEA8006E1500 /* GameOverScene.sks in Resources */,
 				041F859720304E0C006E1500 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041F85C9203078C6006E1500 /* Protocols.swift in Sources */,
 				041F859920304E0C006E1500 /* GameScene.swift in Sources */,
+				041F85C720305032006E1500 /* Fighter.swift in Sources */,
+				041F85CF2030B45C006E1500 /* Extensions.swift in Sources */,
+				041F85DB2032ED2F006E1500 /* Functions.swift in Sources */,
+				041F85D92032C821006E1500 /* ShootingAlien.swift in Sources */,
+				041F85CB20309AC7006E1500 /* Alien.swift in Sources */,
+				041F85CD2030B3F8006E1500 /* SuperAlien.swift in Sources */,
 				041F859B20304E0C006E1500 /* GameViewController.swift in Sources */,
+				041F85D72030D182006E1500 /* GameOverScene.swift in Sources */,
 				041F859320304E0C006E1500 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
