@@ -18,7 +18,7 @@
 		041F85AE20304E0C006E1500 /* TestGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85AD20304E0C006E1500 /* TestGameTests.swift */; };
 		041F85B920304E0D006E1500 /* TestGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85B820304E0D006E1500 /* TestGameUITests.swift */; };
 		041F85C720305032006E1500 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85C620305032006E1500 /* Fighter.swift */; };
-		041F85C9203078C6006E1500 /* Protocol_Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85C8203078C6006E1500 /* Protocol_Moveable.swift */; };
+		041F85C9203078C6006E1500 /* Protocols_Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85C8203078C6006E1500 /* Protocols_Moveable.swift */; };
 		041F85CB20309AC7006E1500 /* Alien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CA20309AC7006E1500 /* Alien.swift */; };
 		041F85CD2030B3F8006E1500 /* SuperAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CC2030B3F8006E1500 /* SuperAlien.swift */; };
 		041F85CF2030B45C006E1500 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CE2030B45C006E1500 /* Extensions.swift */; };
@@ -64,7 +64,7 @@
 		041F85B820304E0D006E1500 /* TestGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGameUITests.swift; sourceTree = "<group>"; };
 		041F85BA20304E0D006E1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041F85C620305032006E1500 /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
-		041F85C8203078C6006E1500 /* Protocol_Moveable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_Moveable.swift; sourceTree = "<group>"; };
+		041F85C8203078C6006E1500 /* Protocols_Moveable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols_Moveable.swift; sourceTree = "<group>"; };
 		041F85CA20309AC7006E1500 /* Alien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien.swift; sourceTree = "<group>"; };
 		041F85CC2030B3F8006E1500 /* SuperAlien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAlien.swift; sourceTree = "<group>"; };
 		041F85CE2030B45C006E1500 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 				041F85A120304E0C006E1500 /* LaunchScreen.storyboard */,
 				041F85A420304E0C006E1500 /* Info.plist */,
 				041F85C620305032006E1500 /* Fighter.swift */,
-				041F85C8203078C6006E1500 /* Protocol_Moveable.swift */,
+				041F85C8203078C6006E1500 /* Protocols_Moveable.swift */,
 				041F85CA20309AC7006E1500 /* Alien.swift */,
 				041F85CC2030B3F8006E1500 /* SuperAlien.swift */,
 				041F85CE2030B45C006E1500 /* Extensions.swift */,
@@ -301,7 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041F85C9203078C6006E1500 /* Protocol_Moveable.swift in Sources */,
+				041F85C9203078C6006E1500 /* Protocols_Moveable.swift in Sources */,
 				041F859920304E0C006E1500 /* GameScene.swift in Sources */,
 				041F85C720305032006E1500 /* Fighter.swift in Sources */,
 				041F85CF2030B45C006E1500 /* Extensions.swift in Sources */,
