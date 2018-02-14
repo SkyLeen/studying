@@ -13,6 +13,4 @@ protocol Moveable {
     func move(atShift: CGFloat)
 }
 
-protocol Shootable {
-    func shoot(withBullet: SKSpriteNode, by: SKSpriteNode,  onScene: SKScene)
-}
+

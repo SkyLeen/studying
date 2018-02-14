@@ -18,7 +18,7 @@
 		041F85AE20304E0C006E1500 /* TestGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85AD20304E0C006E1500 /* TestGameTests.swift */; };
 		041F85B920304E0D006E1500 /* TestGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85B820304E0D006E1500 /* TestGameUITests.swift */; };
 		041F85C720305032006E1500 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85C620305032006E1500 /* Fighter.swift */; };
-		041F85C9203078C6006E1500 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85C8203078C6006E1500 /* Protocols.swift */; };
+		041F85C9203078C6006E1500 /* Protocols_Moveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85C8203078C6006E1500 /* Protocols_Moveable.swift */; };
 		041F85CB20309AC7006E1500 /* Alien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CA20309AC7006E1500 /* Alien.swift */; };
 		041F85CD2030B3F8006E1500 /* SuperAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CC2030B3F8006E1500 /* SuperAlien.swift */; };
 		041F85CF2030B45C006E1500 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85CE2030B45C006E1500 /* Extensions.swift */; };
@@ -26,6 +26,7 @@
 		041F85D72030D182006E1500 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85D62030D182006E1500 /* GameOverScene.swift */; };
 		041F85D92032C821006E1500 /* ShootingAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85D82032C821006E1500 /* ShootingAlien.swift */; };
 		041F85DB2032ED2F006E1500 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F85DA2032ED2F006E1500 /* Functions.swift */; };
+		04B9477E20343F44004C9775 /* Protocol_Shootable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9477D20343F44004C9775 /* Protocol_Shootable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +64,7 @@
 		041F85B820304E0D006E1500 /* TestGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGameUITests.swift; sourceTree = "<group>"; };
 		041F85BA20304E0D006E1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041F85C620305032006E1500 /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
-		041F85C8203078C6006E1500 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		041F85C8203078C6006E1500 /* Protocols_Moveable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols_Moveable.swift; sourceTree = "<group>"; };
 		041F85CA20309AC7006E1500 /* Alien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien.swift; sourceTree = "<group>"; };
 		041F85CC2030B3F8006E1500 /* SuperAlien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAlien.swift; sourceTree = "<group>"; };
 		041F85CE2030B45C006E1500 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		041F85D62030D182006E1500 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		041F85D82032C821006E1500 /* ShootingAlien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingAlien.swift; sourceTree = "<group>"; };
 		041F85DA2032ED2F006E1500 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; usesTabs = 0; };
+		04B9477D20343F44004C9775 /* Protocol_Shootable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_Shootable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +133,7 @@
 				041F85A120304E0C006E1500 /* LaunchScreen.storyboard */,
 				041F85A420304E0C006E1500 /* Info.plist */,
 				041F85C620305032006E1500 /* Fighter.swift */,
-				041F85C8203078C6006E1500 /* Protocols.swift */,
+				041F85C8203078C6006E1500 /* Protocols_Moveable.swift */,
 				041F85CA20309AC7006E1500 /* Alien.swift */,
 				041F85CC2030B3F8006E1500 /* SuperAlien.swift */,
 				041F85CE2030B45C006E1500 /* Extensions.swift */,
@@ -139,6 +141,7 @@
 				041F85D62030D182006E1500 /* GameOverScene.swift */,
 				041F85D82032C821006E1500 /* ShootingAlien.swift */,
 				041F85DA2032ED2F006E1500 /* Functions.swift */,
+				04B9477D20343F44004C9775 /* Protocol_Shootable.swift */,
 			);
 			path = TestGame;
 			sourceTree = "<group>";
@@ -298,11 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041F85C9203078C6006E1500 /* Protocols.swift in Sources */,
+				041F85C9203078C6006E1500 /* Protocols_Moveable.swift in Sources */,
 				041F859920304E0C006E1500 /* GameScene.swift in Sources */,
 				041F85C720305032006E1500 /* Fighter.swift in Sources */,
 				041F85CF2030B45C006E1500 /* Extensions.swift in Sources */,
 				041F85DB2032ED2F006E1500 /* Functions.swift in Sources */,
+				04B9477E20343F44004C9775 /* Protocol_Shootable.swift in Sources */,
 				041F85D92032C821006E1500 /* ShootingAlien.swift in Sources */,
 				041F85CB20309AC7006E1500 /* Alien.swift in Sources */,
 				041F85CD2030B3F8006E1500 /* SuperAlien.swift in Sources */,
